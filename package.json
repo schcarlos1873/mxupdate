@@ -1,0 +1,25 @@
+{
+    "name": "mxupdate",
+    "displayName": "MxUpdate",
+    "description": "MxUpdate",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mxupdate",
+            "aliases": ["MxUpdate", "mxupdate"],
+            "extensions": [".upd"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mxupdate",
+            "scopeName": "source.upd",
+            "path": "./syntaxes/mxupdate.tmLanguage.json"
+        }]
+    }
+}
